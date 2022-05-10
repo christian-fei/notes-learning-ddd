@@ -24,4 +24,30 @@ This helps to tackle inconsistencies in the ubiquitous language by splitting it 
 
 Example maps: maps represent the world, but there are different types of maps used for different purposes. One map could be totally irrelevant and useless when applied to a certain context and use.
 
+The ubiquitous language is not universal, but it can be applied in the realm of the buonded context.
 
+## Bounded contexts and Subdomains
+
+Subdomains are discovered, and Bounded contexts are design.
+
+Subdomains emerge from the business domain and system requirement.
+
+Bounded contexts are designed, it's a strategic design decision.
+
+## Ownership boundaries
+
+A bounded context should be implemented, evolved and maintained by one team only.
+
+This to remove implicit assumptions one team could have on another model.
+
+## Conclusion
+
+Bounded context have their own ubiquitous language.
+
+Subdomains are discovered, bounded contexts are designed.
+
+The division of the domain into bounded context is a strategic design decision.
+
+One team works on one bounded context.
+
+Each bounded context can is indipendent from others and can evolve indipendently.
