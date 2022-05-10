@@ -51,20 +51,3 @@ The division of the domain into bounded context is a strategic design decision.
 One team works on one bounded context.
 
 Each bounded context can is indipendent from others and can evolve indipendently.
-
-## Recap
-
-Partnership: Bounded contexts are integrated in an ad-hoce manner
-
-Shared Kernel: integrated sharing a limited overlapping model that belongs to all bounded contexts
-
-Conformist: consumer conforms to the provider's model
-
-Anticorruption layer: consumer translater the provider's model
-
-Open-host service: provider implements a published language, a model optimized for its consumers' needs
-
-Separate ways: when it's less expensive to duplicate than to collaborate and integrate
-
-A context map shows the integrations between bounded contexts, gives insights about highlevel design, communication patterns and organizational issues.
-
