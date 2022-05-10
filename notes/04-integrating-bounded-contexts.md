@@ -92,8 +92,7 @@ It brings the following advantages
 https://contextmapper.org
 
 
-
-## Recap
+## Recap
 
 Partnership: Bounded contexts are integrated in an ad-hoce manner
 
