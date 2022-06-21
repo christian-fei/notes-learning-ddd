@@ -48,6 +48,21 @@ When you encounter business logic that doesn't belong to any aggregate, or is re
 
 It's a stateless objects that implements the business logic needed, to orchestrate calls to other system components and perform some calculation.
 
-**Managing complexity**
 
+## Conclusion
 
+Complex logic is tackled with the domain model pattern.
+
+The domain model pattern chas three main concepts:
+
+- value objects
+- aggregates
+- domain services
+
+Value objects are identified by their values, without needing an ID field.
+
+The aggregates are a transactional boundary within the domain. Strongly consistent data that can only be modified issuing domain commands and events.
+
+Communication with other other parts of the system is done via domain events.
+
+A domain service contains business logic that can be used by aggregates and value objects.
